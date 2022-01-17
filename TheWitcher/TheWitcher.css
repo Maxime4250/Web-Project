@@ -9,7 +9,7 @@
 
 .GamePres img {
 	float: left;
-	width: 275px;
+	width: 20%;
 	border: 1px solid #ccc;
 	padding: 15px;
 	margin-right: 20px;
@@ -44,7 +44,7 @@
 	position: relative;
 }
 .roles_box li img {
-	width: 300px;
+	width: 80%;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
