@@ -157,7 +157,7 @@ main nav ul li a:hover {
 
 .GamePres img {
 	float: left;
-	width: 275px;
+	width: 25%;
 	border: 1px solid #ccc;
 	padding: 15px;
 	margin-right: 20px;
@@ -201,6 +201,7 @@ main nav ul li a:hover {
 	position: relative;
 }
 .roles_box li img {
+	width: 100%;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
