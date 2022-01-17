@@ -1,0 +1,32 @@
+.critiques {
+	display: flex;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+}
+
+.critiques div {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.critiques .pseudo {
+	margin: 0;
+}
+
+
+.critiques img {
+	width: 80px;
+	border: 5px solid #ccc;
+	padding: 5px;
+	top: 0;
+}
+
+.critiques p {
+	font-size: 20px;
+	line-height: 20px;
+	color: #333;
+	margin-top: 50px;
+}

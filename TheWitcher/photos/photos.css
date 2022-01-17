@@ -1,0 +1,31 @@
+.photos ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin: 15px -30px;
+}
+
+.photos ul li {
+	width: 30%;
+	padding: 15px 15px;
+}
+
+.photos li .box {
+	width: 100%;
+	height: 210px;
+	overflow: hidden;
+}
+.photos li .box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.photos li .box img:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1); 
+	-moz-transform: scale(1.1);
+}
