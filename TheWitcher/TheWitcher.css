@@ -1,0 +1,71 @@
+
+.GamePres {
+	padding-top: 30px;
+}
+
+.GamePres .underline {
+	text-decoration: underline;
+}
+
+.GamePres img {
+	float: left;
+	width: 20%;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-right: 20px;
+}
+
+.GamePres p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+}
+
+.roles_box {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.roles_box li {
+	width: 33.3%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.roles_box li p {
+	font-size: 16px;
+	color: #333;
+	border: 1px solid #ccc;
+	line-height: 30px;
+	width: 80%;
+	margin: 0 auto;
+	background: #fff;
+	position: relative;
+}
+.roles_box li img {
+	width: 80%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.roles_box li img:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+.trame p {
+	font-size: 14px;
+    line-height: 20px;
+}
+
+.button {
+	background: #f6b70a;
+	border: none;
+	padding: 6px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5px;
+}
